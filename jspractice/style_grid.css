@@ -1,0 +1,30 @@
+*{
+   background-color: black;
+   color:white;
+}
+
+.container{
+   width: 100vw;
+   height: 100vh;
+   background-color: blanchedalmond;
+   overflow: hidden;
+}
+
+.grid{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.block {
+   opacity: 0;
+   border-radius: 50%;
+   transition: all 0.3s ease-in-out; 
+}
+
+.animate {
+   transform: scale(1.2);
+   transition: all 0.3s ease-in-out; 
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+   opacity: 0.8;
+}
+
